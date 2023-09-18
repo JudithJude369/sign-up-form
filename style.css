@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ /* || RESET */
+ *,
+ *::after,
+ *::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+  }
+
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    background-color: #E5E7EB;
+    font-size: 1.5rem;
+  }
+
+   /* || GENERAL STYLES */
+   
+   .container  {
+    display: flex;
+    gap: 3rem;
+  }
+  /* || IMAGE STYLES */
+  .bkg-img {
+    width: 500px;
+    height: 1018px;
+  }
+
+  .logo-img{
+    width: 100px;
+  }
+
+  .logo-text{
+    color: white;
+    font-weight: bolder;
+    font-size: 4rem;
+  }
+
+  .img-wrapper{
+    position: relative;
+  }
+
+  .logo-wrapper {
+    margin: 12rem 0 0 0; 
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 500px;
+    height: 150px;
+  }
+   
+  /* TEXT STYLES */
+  .text-wrapper {
+    margin: 12rem 0 0 0; 
+    font-weight: 700;
+    text-align: justify;  
+  }
+
+  .pry-text {
+    margin: 2rem 0 0 0; 
+    font-style: italic;
+  }
+
+  .sec-text {
+    margin: 2rem 0 1rem 0; 
+    font-weight: 700;
+  }
+
+    /* || FORM STYLES */
+
+.form-wrapper {
+  position: absolute;
+  margin-top: 25rem;
+  left: 31.3rem;
+  padding-left: 3rem;
+  background-color: white;
+  width: 1000px;
+  box-shadow: 5px 50px 50px white;
+}
+input {
+  border:  1px solid #E5E7EB;
+  outline: 1px;
+  border-radius: 4px;
+ }
+
+  input:focus {
+  border:  1px solid hsla(240, 100%, 50%, 0.925);
+  box-shadow: 4px 4px 4px hsla(195, 27%, 74%, 0.815);
+  outline: 1px;
+}
+
+ label {
+  text-transform: uppercase;
+  color: grey;
+ }
+
+.form-container {
+  display: flex;
+  gap: 4rem;
+  margin: 1rem ; 
+  font-size: 1rem;
+}
+
+.input-checkbox {
+  margin: 0 0  2rem 2rem; 
+  font-size: 1rem;
+}
+
+/* Button styles */
+
+.btn-wrapper {
+  position: absolute;
+  margin-top: 47rem;
+  left: 31.3rem;
+  padding: 3rem 3rem 0 4rem;
+  background-color: #E5E7EB;
+  width: 900px;
+  height: 265px;
+}
+
+button {
+  color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
+  width: 158px;
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.footer-text {
+  font-size: 1rem;
+}
+
+p a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: 700;
+}
